@@ -44,7 +44,7 @@ class Buton extends StatelessWidget {
       height: height,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-            primary: color, fixedSize: const Size(75, 50)),
+            backgroundColor: color, fixedSize: const Size(75, 50)),
         onPressed: onPressed,
         child: Text(
           childDegeri!,
